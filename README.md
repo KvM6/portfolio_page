@@ -1,1 +1,1 @@
- https://kvm6.github.io/portfolio/
+https://kvm6.github.io/portfolio_page/
