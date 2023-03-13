@@ -1,0 +1,22 @@
+@use "../base/reset";
+@use "../base/colors";
+@use "../base/base";
+
+.navbar {
+	background-color: colors.$light;
+
+	.navbar-brand {
+		padding: 0.5em;
+		font-size: 3rem;
+		color: colors.$dark;
+		border: none;
+	}
+
+	i {
+		transition: color 0.3s;
+	}
+
+	.navbar-brand:hover i {
+		color: colors.$main;
+	}
+}
